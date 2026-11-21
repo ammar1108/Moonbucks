@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOONBUCKS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-image: url(bg1.jpeg);
+        background-size: cover;
+      }
+      body h1 {
+        color: burlywood;
+      }
+      main {
+        text-align: center;
+        margin-top: 40vh;
+        margin-right: 45vw;
+        color: white;
+        text-transform: uppercase;
+        font-size: 32px;
+      }
+      nav {
+        width: 70vw;
+        height: 5vh;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgb(222, 184, 135);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: burlywood;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+
+        font-size: 16px;
+      }
+      .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: burlywood;
+        letter-spacing: 20px;
+        font-family: monospace;
+        text-indent: 10%;
+      }
+      .login {
+        font-weight: bold;
+      }
+      nav img {
+        height: 80%;
+        width: 80%;
+      }
+      .order-btn {
+        margin-top: 20px;
+        padding: 12px 25px;
+        font-size: 18px;
+        border: none;
+        background: rgba(255, 255, 255, 0.3);
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 0 15px rgba(222, 184, 135, 0.664);
+        transition: 0.3s;
+      }
+
+      .order-btn:hover {
+        background: rgba(222, 184, 135, 0.664);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MOONBUCKS</div>
+      <ul>
+        <li><a href="homepage.html">HOME</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="menu.html" #contact>ABOUT US</a></li>
+        <li><a href="menu.html" class="contact">CONTACT</a></li>
+        <li><a href="login.html" class="login">Log In</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Start Your Day</h1>
+      <h1>With Coffee</h1>
+      <a href="order.html">
+        <button class="order-btn">Order Now</button>
+      </a>
+    </main>
+  </body>
+</html>
